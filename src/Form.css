@@ -1,0 +1,107 @@
+/* Default styles for larger screens */
+.head {
+    font-size: 24px;
+  }
+  
+  .text,
+  .password,
+  .select1 {
+    width: 50%;
+    margin: 10px auto;
+  }
+  
+  .btn1 {
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .head {
+      font-size: 20px;
+    }
+  
+    .text,
+    .password,
+    .select1 {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .head {
+      font-size: 18px;
+    }
+  
+    .text,
+    .password,
+    .select1 {
+      width: 100%;
+    }
+  }
+ 
+div {
+    background-color: #f0f0f0; 
+    padding: 20px;
+  }
+  
+ 
+  .head {
+    background-color: #333; 
+    color: white; 
+    padding: 10px;
+  }
+  
+  form {
+    background-color: green;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  .label {
+    /* Add your label styles here */
+  }
+
+.form-container {
+    background-color: green;
+    padding: 20px; /* Add some padding for spacing */
+  }
+  
+  .form-label {
+    color: white;
+  }
+  
+  .form-input {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .form-select {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .form-submit {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .a{
+    border: 1px solid black;
+  }
+  .b{
+    border: 1px solid black;
+  }
+  .btn1{
+    width: 25%;
+    display: flex;
+    align-items: center;
+  }
+ 
+  
+  
